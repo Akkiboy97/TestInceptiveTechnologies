@@ -43,7 +43,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard self.arr_member.count > 0 else {
-            tableView.setEmptyMessage("Member data not available", isCenter: true, color: .black)
+            tableView.setEmptyMessage("Members data not available", isCenter: true, color: .black)
             return 0
         }
         tableView.restore()
